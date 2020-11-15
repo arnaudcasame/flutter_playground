@@ -18,7 +18,12 @@ class HelloRectangle extends StatelessWidget {
         color: Colors.greenAccent,
         width: 400.0,
         height: 300.0,
-        child: Text('Hello Rectangle'),
+        child: Center(
+          child: Text(
+            'Hello Rectangle!',
+            style: TextStyle(fontSize: 40.0),
+          ),
+        ),
       ),
     );
   }
